@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Website</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- main js -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><span>S</span>pa<span>D</span>entistry</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="fas fa-bars"></div>
+        </div>
+    </header>
+<!-- home section -->
+    <section class="home" id="home">
+        <div class="container">
+           <div class="row min-vh-100 align-items-center text-center text-md-left">
+                <div class="col-md-6 pr-md-5" >
+                    <img id="logoimage" src="images/logoimg.jpeg"  alt="logo">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" >
+                    <h1><span>Smile</span> And<span> Relax</span></h1>
+                    <a href="#"><button class="button">Learn More</button></a>
+                </div>
+           </div> 
+        </div>
+
+    </section>
+
+    <!-- about section -->
+    <br>
+   
+    <section class="about" id="about">
+        
+        <div class="container">
+           <div class="row min-vh-100 align-items-center text-center text-md-left">
+                <div class="col-md-6 content">
+                    <h2>About us</h2><br>
+                    <div class="box">
+                        <h3><i class='fas fa-tooth'></i> Dental Services</h3>
+                        <p>Scaling, RCTs</p>
+                    </div>
+                    <br>
+                    <!-- second service -->
+                    <div class="box">
+                        <h3><i class="fa-solid fa-spa"></i> Spas</h3>
+                        <p>Relax with a variety of massage therapies.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="images/aboutimage.png" alt="about" width="60%">
+                </div>
+           </div> 
+        </div>
+    </section>
+
+    <!-- location -->
+    <br>
+    <section class="location" id="location">
+        <div class="container">
+           <div class="row min-vh-100 align-items-center text-center text-md-left">
+                    
+                <div>
+                    <h2><i class="fa-solid fa-location-dot"></i> Location</h2>
+                    <div class="box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.6436712669893!2d-79.25308568427398!3d43.7802550522231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1073506dccf%3A0xe1ae52276c7c019!2s78%20Corporate%20Dr%2C%20Scarborough%2C%20ON%20M1H%203H3!5e0!3m2!1sen!2sca!4v1651679527458!5m2!1sen!2sca" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+           </div> 
+        </div>
+
+    </section>
+<br>
+    <!-- contact -->
+    
+    <section class="contact" id="contact">
+        
+        <div class="container min-vh-100">
+            
+            <div class="row justify-content-center">
+                <h1 class="heading">Make an appointment </h1>
+                <div class="col-md-10">
+                    <form action="">
+                        
+                        <div class="inputBox">
+                            <input type="text" placeholder=" full name">
+                            <input type="number" placeholder=" phone">
+                        </div>
+                        <!-- second input -->
+                        <div class="inputBox">
+                            <input type="email" placeholder=" email ID">
+                            <select name="" id="">
+                                <option value="" disabled selected>select time slot</option>
+                                <option value="09-11 am">09-11 am</option>
+                                <option value="11-01 pm">11-01 pm</option>
+                                <option value="01-03 pm">01-03 pm</option>
+                                <option value="03-05 pm">03-05 pm</option> 
+                            </select>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="message (optional)"></textarea>
+                        <input type="submit" name="" id="" value="make appointment" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="center">
+            &copy; 2022 &nbsp;
+        </div>
+      </footer>
+</body>
+</html>
